@@ -2,10 +2,10 @@
 <manifest>
 
     <!-- Device Tree -->
-    <project name="LineageOS/android_device_google_bramble"
+    <project name="manohar199/android_device_google_bramble"
              path="device/google/bramble"
              remote="github"
-             revision="lineage-22.1" />
+             revision="lineage-23.2" />
 
     
 
@@ -13,7 +13,7 @@
     <project name="LineageOS/android_kernel_google_redbull"
              path="kernel/google/redbull"
              remote="github"
-             revision="lineage-22.1" />
+             revision="lineage-23.2" />
 
     <!-- Vendor -->
     <project name="TheMuppets/proprietary_vendor_google_bramble" path="vendor/google/bramble" groups="muppets,muppets_bramble" clone-depth="1" />
