@@ -22,7 +22,7 @@
 
     <!-- Vendor -->
     <project path="vendor/google/bramble" 
-         name="LineageOS/proprietary_vendor_google_bramble" 
+         name=""TheMuppets/proprietary_vendor_google_bramble" " 
          remote="github" 
          revision="lineage-23.2"
          clone-depth="1" />
