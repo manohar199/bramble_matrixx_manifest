@@ -21,12 +21,11 @@
         path="kernel/google/redbull"
         remote="github"
         revision="lineage-23.2" />
-
-    <project path="hardware/qcom/media/sm7250" 
-           name="LineageOS/android_hardware_qcom_media" 
-           remote="github" 
-           revision="lineage-23.2-caf-sm7250"
-           clone-depth="1" />
+<project path="hardware/qcom/sm7250/media" 
+         name="LineageOS/android_hardware_qcom_sm7250_media" 
+         remote="github" 
+         revision="lineage-22.1"
+         clone-depth="1" />
     <!-- Vendor -->
     <project
         name="TheMuppets/proprietary_vendor_google_bramble"
