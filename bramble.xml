@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="manohar199" fetch="https://github.com/manohar199" />
+  <!-- Remote definition for GitHub -->
+  <remote name="github"
+          fetch="https://github.com/"
+          review="github.com" />
 
-    <project path="device/google/bramble" 
-             name="android_device_google_bramble" 
-             remote="manohar199" 
-             revision="main" />
+  <!-- Default settings -->
+  <default revision="main"
+           remote="github"
+           sync-j="4" />
 
-    <project path="vendor/google/bramble" 
-             name="proprietary_vendor_google_bramble" 
-             remote="manohar199" 
-             revision="main" />
+  <!-- Kernel repository for redbull (Pixel 4a 5G / Pixel 5) -->
+  <project path="kernel/google/redbull"
+           name="manohar199/android_kernel_google_redbull"
+           remote="github"
+           revision="ksu-legacy-16.2" />
 
-    <project path="kernel/google/redbull" 
-             name="android_kernel_google_redbull" 
-             remote="manohar199" 
-             revision="main" />
+  <!-- Device tree for bramble (Pixel 5) -->
+  <project path="device/google/bramble"
+           name="manohar199/android_device_google_bramble"
+           remote="github"
+           revision="bramble" />
+
+  <!-- Proprietary vendor blobs for bramble -->
+  <project path="vendor/google/bramble"
+           name="manohar199/proprietary_vendor_google_bramble"
+           remote="github"
+           revision="lineage-22.2" />
+
+  <!-- Optional: Add AOSP base if you need a full build environment -->
+  <!--
+  <include name="https://source.android.com/source/manifest.xml" />
+  -->
 </manifest>
