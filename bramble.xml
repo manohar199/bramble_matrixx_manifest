@@ -2,30 +2,16 @@
 <manifest>
   <!-- Pixel 4a 5G (bramble) Device Trees for LineageOS 23.2 -->
   
-  <!-- Device Tree -->
+  <!-- Device Tree (includes sepolicy inside) -->
   <project path="device/google/bramble" 
            name="LineageOS/android_device_google_bramble" 
            remote="github" 
            revision="lineage-23.2"
            groups="device,bramble" />
   
-  <!-- Device SEPolicy -->
-  <project path="device/google/bramble-sepolicy" 
-           name="LineageOS/android_device_google_bramble-sepolicy" 
-           remote="github" 
-           revision="lineage-23.2"
-           groups="device,bramble" />
-  
-  <!-- Common Redbull Platform -->
+  <!-- Common Redbull Platform (includes sepolicy inside) -->
   <project path="device/google/redbull" 
            name="LineageOS/android_device_google_redbull" 
-           remote="github" 
-           revision="lineage-23.2"
-           groups="device,redbull" />
-  
-  <!-- Common Redbull SEPolicy -->
-  <project path="device/google/redbull-sepolicy" 
-           name="LineageOS/android_device_google_redbull-sepolicy" 
            remote="github" 
            revision="lineage-23.2"
            groups="device,redbull" />
