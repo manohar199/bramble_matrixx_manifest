@@ -6,7 +6,7 @@
   <project path="device/google/bramble" 
            name="LineageOS/android_device_google_bramble" 
            remote="github" 
-           revision="lineageos-23.2"
+           revision="lineage-23.2"
            groups="device,bramble" />
   
   <!-- Common Redbull Platform (includes sepolicy inside) -->
