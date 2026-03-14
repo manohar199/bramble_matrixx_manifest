@@ -4,30 +4,30 @@
   
   <!-- Device Tree (includes sepolicy inside) -->
   <project path="device/google/bramble" 
-           name="manohar199/android_device_google_bramble" 
+           name="LineageOS/android_device_google_bramble" 
            remote="github" 
-           revision="bramble"
+           revision="lineageos-23.2"
            groups="device,bramble" />
   
   <!-- Common Redbull Platform (includes sepolicy inside) -->
   <project path="device/google/redbull" 
-           name="manohar199/android_device_google_redbull" 
+           name="LineageOS/android_device_google_redbull" 
            remote="github" 
-           revision="redbull"
+           revision="lineage-23.2"
            groups="device,redbull" />
   
   <!-- Kernel -->
   <project path="kernel/google/redbull" 
-           name="manohar199/android_kernel_google_redbull" 
+           name="LineagOS/android_kernel_google_redbull" 
            remote="github" 
-           revision="ksu-legacy-16.2"
+           revision="lineageos-23.2"
            groups="device,bramble,redfin"
            clone-depth="1" />
   
   <!-- Vendor Blobs (TheMuppets) -->
   <project path="vendor/google/bramble" 
-           name="manohar199/proprietary_vendor_google_bramble" 
+           name="LineageOS/proprietary_vendor_google_bramble" 
            remote="github" 
-           revision="lineage-22.2"
+           revision="lineage-23.2"
            clone-depth="1" />
 </manifest>
