@@ -18,7 +18,7 @@
   
   <!-- Kernel -->
   <project path="kernel/google/redbull" 
-           name="LineagOS/android_kernel_google_redbull" 
+           name="LineageOS/android_kernel_google_redbull" 
            remote="github" 
            revision="lineage-23.2"
            groups="device,bramble,redfin"
