@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Pixel 4a 5G (bramble) Device Trees for LineageOS 23.2 -->
-  
-  <!-- Device Tree (includes sepolicy inside) -->
-  <project path="device/google/bramble" 
-           name="LineageOS/android_device_google_bramble" 
-           remote="github" 
+
+  <!-- Explicit SSH remotes — avoids HTTPS auth issues in CI -->
+  <remote name="lineageos-ssh"
+          fetch="ssh://git@github.com/LineageOS" />
+  <remote name="themuppets-ssh"
+          fetch="ssh://git@github.com/TheMuppets" />
+
+  <!-- Device Tree -->
+  <project path="device/google/bramble"
+           name="android_device_google_bramble"
+           remote="lineageos-ssh"
            revision="lineage-23.2"
            groups="device,bramble" />
-  
-  <!-- Common Redbull Platform (includes sepolicy inside) -->
-  <project path="device/google/redbull" 
-           name="LineageOS/android_device_google_redbull" 
-           remote="github" 
+
+  <!-- Common Redbull Platform -->
+  <project path="device/google/redbull"
+           name="android_device_google_redbull"
+           remote="lineageos-ssh"
            revision="lineage-23.2"
            groups="device,redbull" />
-  
+
   <!-- Kernel -->
-  <project path="kernel/google/redbull" 
-           name="LineageOS/android_kernel_google_redbull" 
-           remote="github" 
+  <project path="kernel/google/redbull"
+           name="android_kernel_google_redbull"
+           remote="lineageos-ssh"
            revision="lineage-23.2"
            groups="device,bramble,redfin"
            clone-depth="1" />
-  
+
   <!-- Vendor Blobs (TheMuppets) -->
-  <project path="vendor/google/bramble" 
-           name="TheMuppets/proprietary_vendor_google_bramble" 
-           remote="github" 
+  <project path="vendor/google/bramble"
+           name="proprietary_vendor_google_bramble"
+           remote="themuppets-ssh"
            revision="lineage-23.2"
            clone-depth="1" />
 </manifest>
