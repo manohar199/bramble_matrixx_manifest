@@ -21,5 +21,9 @@
     remote="github"
     revision="lineage-23.2" />
   <!-- Vendor Blobs (TheMuppets) -->
-  <project name="TheMuppets/proprietary_vendor_google_bramble" path="vendor/google/bramble" groups="muppets,muppets_bramble" clone-depth="1" />
+  <!---<project name="TheMuppets/proprietary_vendor_google_bramble" path="vendor/google/bramble" groups="muppets,muppets_bramble" clone-depth="1" />--->
+  <project name="zahidmgsk/proprietary_vendor_google_bramble" 
+           path="vendor/google/bramble" 
+           remote="github" 
+           revision="14.0" />
 </manifest>
