@@ -7,19 +7,19 @@
     path="device/google/bramble"
     name="manohar199/android_device_google_bramble"
     remote="github_bramble"
-    revision="lineage-23.2" />
+    revision="bramble-16" />
 
   <project
     path="device/google/redbull"
     name="manohar199/android_device_google_redbull"
     remote="github_bramble"
-    revision="lineage-23.2" />
+    revision="redbull" />
 
   <project
     path="kernel/google/redbull"
     name="manohar199/android_kernel_google_redbull"
     remote="github_bramble"
-    revision="lineage-23.2" />
+    revision="ksu-legacy-16.2" />
   
   <project 
     name="TheMuppets/proprietary_vendor_google_bramble" 
