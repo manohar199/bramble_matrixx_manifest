@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <!-- Device Tree -->
-    <project
+  <remote name="github_bramble" fetch="https://github.com" />
+
+  <project
     path="device/google/bramble"
     name="LineageOS/android_device_google_bramble"
-    remote="github"
+    remote="github_bramble"
     revision="lineage-23.2" />
-  <!-- Common Redbull Platform -->
+
   <project
     path="device/google/redbull"
     name="LineageOS/android_device_google_redbull"
-    remote="github"
+    remote="github_bramble"
     revision="lineage-23.2" />
 
-  <!-- Kernel -->
- <project
+  <project
     path="kernel/google/redbull"
     name="LineageOS/android_kernel_google_redbull"
-    remote="github"
+    remote="github_bramble"
     revision="lineage-23.2" />
   
-  <project name="TheMuppets/proprietary_vendor_google_bramble" remote="github" path="vendor/google/bramble" groups="muppets,muppets_bramble" clone-depth="1" revision="lineage-23.2" />
+  <project 
+    name="TheMuppets/proprietary_vendor_google_bramble" 
+    remote="github_bramble" 
+    path="vendor/google/bramble" 
+    groups="muppets,muppets_bramble" 
+    clone-depth="1" 
+    revision="lineage-23.2" />
  
 </manifest>
