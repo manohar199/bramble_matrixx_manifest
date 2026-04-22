@@ -22,7 +22,7 @@
     revision="lineage-23.2" />
   
   <project 
-    name="manohar199/proprietary_vendor_google_bramble" 
+    name="TheMuppets/proprietary_vendor_google_bramble" 
     remote="github_bramble" 
     path="vendor/google/bramble" 
     groups="muppets,muppets_bramble" 
