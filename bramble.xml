@@ -26,5 +26,7 @@
     remote="github_bramble" 
     path="vendor/google/bramble" 
     revision="bramble-16" />
+ <project path="vendor/aosp" name="manohar199/vendor_aosp" remote="github" revision="fifteen" />
+
  
 </manifest>
