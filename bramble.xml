@@ -13,7 +13,7 @@
     path="device/google/redbull"
     name="manohar199/android_device_google_redbull"
     remote="github_bramble"
-    revision="redbull" />
+    revision="infinity-16.2" />
 
   <project
     path="kernel/google/redbull"
