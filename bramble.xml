@@ -5,28 +5,28 @@
 
   <project
     path="device/google/bramble"
-    name="manohar199/android_device_google_bramble"
+    name="LineageOS/android_device_google_bramble"
     remote="github_bramble"
-    revision="bramble-16" />
+    revision="lineage-23.2" />
 
   <project
     path="device/google/redbull"
-    name="manohar199/android_device_google_redbull"
+    name="LineageOS/android_device_google_redbull"
     remote="github_bramble"
-    revision="infinity-16.2" />
+    revision="lineage-23.2" />
 
   <project
     path="kernel/google/redbull"
-    name="manohar199/android_kernel_google_redbull"
+    name="LineageOS/android_kernel_google_redbull"
     remote="github_bramble"
-    revision="ksu-legacy-16.2" />
+    revision="lineage-23.2" />
   
   <project 
-    name="manohar199/proprietary_vendor_google_bramble" 
+    name="TheMuppets/proprietary_vendor_google_bramble" 
     remote="github_bramble" 
     path="vendor/google/bramble" 
-    revision="bramble-16" />
- <project path="vendor/aosp" name="manohar199/vendor_aosp" remote="github" revision="fifteen" />
-
+    groups="muppets,muppets_bramble" 
+    clone-depth="1" 
+    revision="lineage-23.2" />
  
 </manifest>
